@@ -1,0 +1,14 @@
+						<li><a href="#" class="menu1"><span class="glyphicon glyphicon-film" aria-hidden="true"></span>Movies<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+						<ul class="cl-effect-2">
+							<li><a href="movies.html">English</a></li>                                             
+							<li><a href="movies.html">Chinese</a></li>
+							<li><a href="movies.html">Hindi</a></li> 
+						</ul>
+						<!-- script-for-menu -->
+						<script>
+							$( "li a.menu1" ).click(function() {
+							$( "ul.cl-effect-2" ).slideToggle( 300, function() {
+							// Animation complete.
+							});
+							});
+						</script>
